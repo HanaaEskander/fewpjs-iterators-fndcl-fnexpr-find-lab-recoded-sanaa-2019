@@ -7,7 +7,7 @@ const record = [
 function testFunc() {
   return "hi"
 }
-function superbowlWin(arr){
+function superbowlWin(){
   let row = arr.find(item => {
         let result = item.result === "W";
         return result;
