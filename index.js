@@ -9,10 +9,10 @@ function testFunc() {
 }
 function superbowlWin(record){
   let row = record.find(item => {
-        let result = item.result === "W";
-        return result;
-    });
-    return row;
+  let result = item.result === "W";
+  return result;
+  });
+ return row;
 }
 
 superbowlWin(record);
