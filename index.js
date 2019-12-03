@@ -7,8 +7,8 @@ const record = [
 function testFunc() {
   return "hi"
 }
-function superbowlWin(){
-  let row = arr.find(item => {
+function superbowlWin(record){
+  let row = record.find(item => {
         let result = item.result === "W";
         return result;
     });
