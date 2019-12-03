@@ -7,3 +7,10 @@ const record = [
 function testFunc() {
   return "hi"
 }
+function superbowlWin(arr){
+  let row = arr.find(item => {
+        let result = item.result === "W";
+        return result;
+    });
+    return row !== undefined ? row.year : undefined;
+}
