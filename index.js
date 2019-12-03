@@ -12,5 +12,7 @@ function superbowlWin(record){
         let result = item.result === "W";
         return result;
     });
-    return row !== undefined ? row.year : undefined;
+    return row;
 }
+
+superbowlWin(record);
